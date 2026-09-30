@@ -40,8 +40,8 @@ export const contributions: Contribution[] = [
 ];
 
 export const skills: string[] = [
-  "React", "Next", "Node", "Express", "MongoDB", "PostgreSQL", "Redis", "Prisma", "Zustand", "Tanstack Query",
-  "Tailwind", "Framer Motion", "JavaScript", "TypeScript", "Python", "Git", "GitHub", "Docker", "Linux",
+  "React", "Next", "Node", "Express", "MongoDB", "PostgreSQL", "Redis", "Prisma",
+  "Tailwind", "JavaScript", "TypeScript", "Git", "GitHub", "Docker", "Linux",
 ];
 
 export const posts: BlogPost[] = [
