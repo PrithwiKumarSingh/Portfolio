@@ -24,7 +24,7 @@ export default function Projects() {
               <p className="mt-2 text-sm text-muted">{p.description}</p>
               <div className="mt-3 flex flex-wrap items-center justify-between gap-2">
                 <p className="text-xs text-muted">{p.tags.join(" · ")}</p>
-                <a href={p.url} className="text-sm hover:underline">View Project ↗</a>
+                <a target="_blank" href={p.url} className="text-sm hover:underline">View Project ↗</a>
               </div>
             </div>
           </motion.article>

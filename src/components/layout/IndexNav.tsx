@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import type { SectionId } from "../../types";
 
 export const NAV_ITEMS: { id: SectionId; label: string }[] = [
-  { id: "experience", label: "Experience" },
-  { id: "projects", label: "Projects" },
-  { id: "open-source", label: "Open Source" },
   { id: "skills", label: "Skills" },
-  { id: "blog", label: "Blog" },
-  { id: "highlights", label: "Highlights" },
+  // { id: "experience", label: "Experience" },
+  { id: "projects", label: "Projects" },
+  // { id: "open-source", label: "Open Source" },
+  // { id: "blog", label: "Blog" },
+  // { id: "highlights", label: "Highlights" },
 ];
 
 /** Sticky right-hand index; highlights the section in view. Hidden on small screens. */

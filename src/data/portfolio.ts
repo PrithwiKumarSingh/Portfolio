@@ -11,7 +11,7 @@ export const profile: Profile = {
     "Currently building ProjectOne, ProjectTwo, and experimental AI tools.",
   ],
   bannerUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1?v=4",
+  avatarUrl: "https://res.cloudinary.com/o5mjgvg6/image/upload/v1790789733/square-image.jpg",
   email: "prithwikumar871@gmail.com",
   callUrl: "https://cal.com/your-name",
   socials: [
@@ -28,10 +28,10 @@ export const profile: Profile = {
 // ];
 
 export const projects: Project[] = [
-  { title: "ProjectOne", status: "Live", description: "A collection of animated components for landing pages.", tags: ["Next", "React", "TypeScript", "Tailwind"], url: "#" },
-  { title: "ProjectTwo", status: "Building", description: "Turn sketches into 3D objects — no 3D skills required.", tags: ["Next", "Three.js", "TypeScript"], url: "#" },
-  { title: "ProjectThree", status: "Building", description: "An AI UI builder that turns prompts into production-ready interfaces.", tags: ["Next", "Prisma", "Node"], url: "#" },
-  { title: "ProjectFour", status: "Not Started", description: "An AI-powered search engine for the internet.", tags: ["Next", "Redis", "TypeScript"], url: "#" },
+  { title: "Mentis", status: "Live", description: "A full-stack second brain application for saving, organizing, and managing links, notes, documents, and media in one secure place.", tags: ["TypeScript", "React", "MongoDB", "Node.js", "Express", "TailwindCSS", "JWT", "Axios"], image: "https://res.cloudinary.com/o5mjgvg6/image/upload/v1790789123/Mentis.png", url: "https://mentis-digital.vercel.app/" },
+  { title: "VanishDrop", status: "Live", description: "A full-stack temporary file-sharing platform that lets users securely upload and share files without requiring an account, with automatic expiration.", tags: ["TypeScript", "React", "Node.js", "Express", "Multer", "Supabase"], image: "https://res.cloudinary.com/o5mjgvg6/image/upload/v1790789129/Vanishdrop.png", url: "https://vanishdropfile.vercel.app/" },
+  { title: "Swiggy Clone", status: "Live", description: "A food delivery web application built with React and live Swiggy APIs, featuring restaurant browsing, menus, routing, and state management.", tags: ["React", "TailwindCSS", "React Router", "Redux", "React Icons"], image: "https://res.cloudinary.com/o5mjgvg6/image/upload/v1790789096/Swiggy.png", url: "https://swiggy-project-three.vercel.app/" },
+  { title: "CloneCraft", status: "Live", description: "A frontend practice project focused on recreating modern web interfaces using React and TailwindCSS with responsive layouts and reusable components.", tags: ["React", "TailwindCSS", "React Router"], image: "https://res.cloudinary.com/o5mjgvg6/image/upload/v1790789110/frontend.png", url: "https://clonecraft-ui.vercel.app/" },
 ];
 
 export const contributions: Contribution[] = [
