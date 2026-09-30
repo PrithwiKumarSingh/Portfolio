@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --bg: 250 250 250; --card: 255 255 255; --fg: 20 20 20; --muted: 115 115 115; --line: 220 220 220; }
+.dark { --bg: 0 0 0; --card: 12 12 12; --fg: 245 245 245; --muted: 150 150 150; --line: 38 38 38; }
+
+body { @apply bg-bg font-sans text-fg antialiased; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
