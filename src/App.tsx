@@ -2,7 +2,7 @@ import { useState } from "react";
 import CommandPalette from "./components/layout/CommandPalette";
 import IndexNav, { NAV_ITEMS } from "./components/layout/IndexNav";
 import Blog from "./components/sections/Blog";
-import Experience from "./components/sections/Experience";
+import  ChatWidget  from "./features/ChatWidget";
 import GithubActivity from "./components/sections/GithubActivity";
 import Hero from "./components/sections/Hero";
 import Highlights from "./components/sections/Highlights";
@@ -30,6 +30,7 @@ export default function App() {
         {/* <Blog /> */}
         {/* <Highlights /> */}
         <GithubActivity />
+        <ChatWidget/>
       </main>
       <IndexNav active={active} />
       <CommandPalette open={paletteOpen} setOpen={setPaletteOpen} />
