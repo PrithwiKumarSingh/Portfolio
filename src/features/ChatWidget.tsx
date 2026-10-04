@@ -6,7 +6,7 @@ import { BOT_NAME, SUGGESTIONS } from "./persona";
 import TypingDots from "./TypingDots";
 import { useChat } from "./useChat";
 
-/** Floating persona chatbot. Drop <ChatWidget /> anywhere once (e.g. in App.tsx). */
+
 export default function ChatWidget() {
   const [open, setOpen] = useState(false);
   const [input, setInput] = useState("");
@@ -73,13 +73,13 @@ export default function ChatWidget() {
       <motion.button onClick={() => setOpen((o) => !o)} aria-label={open ? "Close chat" : "Open chat"}
         whileHover={{ scale: 1.08 }} whileTap={{ scale: 0.92 }} initial={{ scale: 0 }} animate={{ scale: 1 }}
         transition={{ type: "spring", stiffness: 300, damping: 18, delay: 1 }}
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-fg text-bg shadow-xl">
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-900 text-white shadow-xl">
         <AnimatePresence mode="wait" initial={false}>
           <motion.span key={open ? "x" : "chat"} initial={{ rotate: -90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} exit={{ rotate: 90, opacity: 0 }} transition={{ duration: 0.15 }}>
             {open ? (
               <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M6 6l12 12M18 6L6 18" /></svg>
             ) : (
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 12a8 8 0 0 1-11.5 7.2L4 20l1-4.5A8 8 0 1 1 21 12z" /></svg>
+              <img className="rounded-full object-cover" src="https://res.cloudinary.com/o5mjgvg6/image/upload/v1791109609/Neon_AI_Coder_Avatar.png"/>
             )}
           </motion.span>
         </AnimatePresence>

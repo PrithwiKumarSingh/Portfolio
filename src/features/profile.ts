@@ -1,5 +1,5 @@
 export  const prithwiProfile = {
-  name: "Prithwi Kumar Singh",
+  name: "Prithwi Kumar",
 
   education: {
     degree: "Master of Computer Applications (MCA)",
@@ -81,6 +81,17 @@ export  const prithwiProfile = {
     },
   ],
 
+  socialMedia : [
+    {
+      LinkedIn : "https://www.linkedin.com/in/prithwikumar",
+      Twitter : "https://x.com/PrithwiSingh_",
+      Github : "https://github.com/prithwikumarsingh",
+      Discord : "https://discord.com/users/1416074936023257199",
+      Phone : +919708930789
+    }
+
+  ],
+
   currentlyLearning: [
     "Generative AI",
     "Prompt Engineering",
@@ -88,4 +99,5 @@ export  const prithwiProfile = {
     "System Design",
     "DevOps",
   ],
+  
 };
