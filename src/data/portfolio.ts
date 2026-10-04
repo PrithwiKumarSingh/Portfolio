@@ -6,9 +6,9 @@ export const profile: Profile = {
   age: 23,
   tagline: "Full Stack Developer + GenAI",
   bullets: [
-    "AI, open source, and developer tools excite me.",
-    "I believe actions speak louder than words, so I put my code where my mouth is.",
-    "Currently building ProjectOne, ProjectTwo, and experimental AI tools.",
+    "I enjoy building things from scratch and understanding how they work under the hood.",
+    "My current focus is full-stack development and Generative AI.",
+    "Most of my learning happens through projects, experimentation, and writing code.",
   ],
   bannerUrl: "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=1600",
   avatarUrl: "https://res.cloudinary.com/o5mjgvg6/image/upload/v1790789733/square-image.jpg",
