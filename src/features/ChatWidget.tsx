@@ -73,7 +73,7 @@ export default function ChatWidget() {
       <motion.button onClick={() => setOpen((o) => !o)} aria-label={open ? "Close chat" : "Open chat"}
         whileHover={{ scale: 1.08 }} whileTap={{ scale: 0.92 }} initial={{ scale: 0 }} animate={{ scale: 1 }}
         transition={{ type: "spring", stiffness: 300, damping: 18, delay: 1 }}
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-900 text-white shadow-xl">
+        className="flex h-14 w-14 items-center justify-center rounded-full bg-blue-600 text-white ring-2 shadow-md ">
         <AnimatePresence mode="wait" initial={false}>
           <motion.span key={open ? "x" : "chat"} initial={{ rotate: -90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} exit={{ rotate: 90, opacity: 0 }} transition={{ duration: 0.15 }}>
             {open ? (

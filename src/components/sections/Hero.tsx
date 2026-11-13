@@ -29,8 +29,8 @@ export default function Hero({ theme, onToggleTheme, onOpenPalette }: Props) {
 
         <div className="mt-6 flex flex-wrap gap-3">
           {/* <a href={profile.callUrl} className="rounded-lg bg-fg px-4 py-2 text-sm font-medium text-bg">Book an intro call</a> */}
+          <a target="_blank" href={`https://drive.google.com/file/d/1ooBhsQ8_V_jnWdjOxRf6Vd2WV-WxQYmT/view`} className="rounded-lg border border-line bg-card px-4 py-2 text-sm">Resume</a>
           <a href={`mailto:${profile.email}`} className="rounded-lg bg-fg px-4 py-2 text-sm border font-medium text-bg hover:bg-card hover:border-line hover:text-white hover:scale transition-all ease-in-out">Send an email</a>
-          {/* <a href={`mailto:${profile.email}`} className="rounded-lg border border-line bg-card px-4 py-2 text-sm">Send an email</a> */}
         </div>
         <p className="mt-6 text-muted">Here are my <span className="font-semibold text-fg">socials</span></p>
         <div className="mt-3 flex flex-wrap gap-3 pb-10">
